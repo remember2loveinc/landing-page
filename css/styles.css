@@ -538,6 +538,13 @@ pre code {
   max-height: 340px;
   overflow-y: scroll;
 }
+.container_service {
+  width: 100%;
+  /*padding-right: 0.75rem;
+  padding-left: 0.75rem;
+  /*margin-right: auto;
+  margin-left: auto;*/
+}
 
 .container {
   width: 100%;
@@ -4680,6 +4687,10 @@ input[type=button].btn-block {
   padding-left: 0;
   list-style: none;
   border-radius: 0.25rem;
+}
+
+.page-section {
+  padding: 3rem;
 }
 
 .page-link {
@@ -10293,7 +10304,9 @@ body {
 }
 
 .projects-section {
-  padding: 10rem 0;
+  padding: 0 0 0 0;
+  /*background: grey;*/
+  background: linear-gradient(to bottom, #000000 0%, rgba(0, 0, 0, 0.9) 75%, rgba(0, 0, 0, 0.8) 100%);
 }
 .projects-section .featured-text {
   padding: 2rem;
