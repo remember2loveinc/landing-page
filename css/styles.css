@@ -538,18 +538,27 @@ pre code {
   max-height: 340px;
   overflow-y: scroll;
 }
-.container_service {
+.container_gradient {
   width: 100%;
+  background: linear-gradient(to bottom, #000000 0%, rgba(0, 0, 0, 0.9) 75%, rgba(0, 0, 0, 0.8) 100%);
   /*padding-right: 0.75rem;
   padding-left: 0.75rem;
   /*margin-right: auto;
   margin-left: auto;*/
 }
 
+.glasses {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
 .container {
   width: 100%;
   padding-right: 0.75rem;
   padding-left: 0.75rem;
+  padding-bottom: 2rem;
   margin-right: auto;
   margin-left: auto;
 }
@@ -604,6 +613,7 @@ pre code {
 }
 
 .team-member {
+  padding-top: 3rem;
   margin-bottom: 3rem;
   text-align: center;
 }
@@ -4691,6 +4701,10 @@ input[type=button].btn-block {
 
 .page-section {
   padding: 3rem;
+  background: rgb(210, 210, 210);
+  /*background: linear-gradient(to bottom, rgb(210, 210, 210), rgb(217, 217, 217), rgb(233, 233, 233) 100%);*/
+  /*background: linear-gradient(to top, rgba(0, 0, 0, 0.8) 100%, rgba(0, 0, 0, 0.9) 75%, #000000 0%);*/
+  /*background: linear-gradient(to top,  rgba(255, 255, 255, 0.9), rgba(0, 0, 0, 0.9) 75%, rgba(0, 0, 0, 0.8) 100%);*/
 }
 
 .page-link {
@@ -10295,6 +10309,11 @@ body {
   }
 }
 
+.glasses-section {
+  background: linear-gradient(to bottom, rgb(210, 210, 210), rgb(217, 217, 217), rgb(233, 233, 233) 100%);
+  /*background: linear-gradient(to bottom, #000000 0%, rgba(0, 0, 0, 0.9) 75%, rgba(0, 0, 0, 0.8) 100%);*/
+}
+
 .about-section {
   padding-top: 10rem;
   background: linear-gradient(to bottom, #000000 0%, rgba(0, 0, 0, 0.9) 75%, rgba(0, 0, 0, 0.8) 100%);
@@ -10305,8 +10324,6 @@ body {
 
 .projects-section {
   padding: 0 0 0 0;
-  /*background: grey;*/
-  background: linear-gradient(to bottom, #000000 0%, rgba(0, 0, 0, 0.9) 75%, rgba(0, 0, 0, 0.8) 100%);
 }
 .projects-section .featured-text {
   padding: 2rem;
