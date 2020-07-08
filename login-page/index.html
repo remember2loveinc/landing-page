@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <title>Remember2Love - Login</title>
+        <link rel="icon" type="image/x-icon" href="assets/img/logo.jpg" />
+        <!-- Font Awesome icons (free version)-->
+
+        <script src="https://use.fontawesome.com/releases/v5.13.0/js/all.js" crossorigin="anonymous"></script>
+        <!-- Google fonts-->
+        <link href="https://fonts.googleapis.com/css?family=Varela+Round" rel="stylesheet" />
+        <link href="https://fonts.googleapis.com/css?family=Nunito:200,200i,300,300i,400,400i,600,600i,700,700i,800,800i,900,900i" rel="stylesheet" />
+
+        <meta name="google-signin-client_id" content="353111039520-afr78ef1g6dmjkap14ue1rcoppbpangr.apps.googleusercontent.com">
+        <!-- Core theme CSS (includes Bootstrap)-->
+        <link href="/login-page/css/styles.css" rel="stylesheet" />
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    </head>
+    <body>
+        <!-- Navigation-->
+        <!--<nav class="navbar navbar-expand-lg navbar-light fixed-top" id="mainNav">
+            <div class="container">
+                <a class="navbar-brand js-scroll-trigger" href="#page-top">Remember2LoveInc</a><button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">Menu<i class="fas fa-bars"></i></button>
+                <div class="collapse navbar-collapse" id="navbarResponsive">
+                    <ul class="navbar-nav ml-auto">
+
+                        <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#">Sign-up/Login</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>-->
+        <section class="login-page">
+            <div id="logreg-forms">
+                <form class="form-signin">
+                    <h1 class="h3 mb-3 font-weight-normal" style="text-align: center"> Login</h1>
+                    <div class="social-login">
+                        <button class="btn facebook-btn social-btn" type="button"><span><i class="fab fa-facebook-f"></i> Sign in with Facebook</span> </button>
+                        <button class="btn google-btn social-btn" type="button"><span><i class="fab fa-google-plus-g"></i> Sign in with Google+</span> </button>
+                    </div>
+                    <p style="text-align:center"> OR  </p>
+                    <input type="email" id="inputEmail" class="form-control" placeholder="Email address" required="" autofocus="">
+                    <input type="password" id="inputPassword" class="form-control" placeholder="Password" required="">
+                    
+                    <button class="btn btn-success btn-block" type="submit"><i class="fas fa-sign-in-alt"></i> Sign in</button>
+                    <a href="#" id="forgot_pswd">Forgot password?</a>
+                    <hr>
+                    <!-- <p>Don't have an account!</p>  -->
+                    <button class="btn btn-primary btn-block" type="button" id="btn-signup"><i class="fas fa-user-plus"></i> Sign up New Account</button>
+                    </form>
+        
+                    <form action="/reset/password/" class="form-reset">
+                        <input type="email" id="resetEmail" class="form-control" placeholder="Email address" required="" autofocus="">
+                        <button class="btn btn-primary btn-block" type="submit">Reset Password</button>
+                        <a href="#" id="cancel_reset"><i class="fas fa-angle-left"></i> Back</a>
+                    </form>
+                    
+                    <form action="/signup/" class="form-signup">
+                        <div class="social-login">
+                            <div class="btn-group-horizontal" role="group" aria-label="Basic example"></div>
+                                <button class="btn facebook-btn social-btn" type="button"><span><i class="fab fa-facebook-f"></i> Sign up with Facebook</span> </button>
+                                <button class="btn google-btn social-btn" type="button"><span><i class="fab fa-google-plus-g"></i> Sign up with Google+</span> </button>
+                            </div>
+                        
+                        <p style="text-align:center">OR</p>
+        
+                        <input type="text" id="user-name" class="form-control" placeholder="Full name" required="" autofocus="">
+                        <input type="email" id="user-email" class="form-control" placeholder="Email address" required autofocus="">
+                        <input type="password" id="user-pass" class="form-control" placeholder="Password" required autofocus="">
+                        <input type="password" id="user-repeatpass" class="form-control" placeholder="Repeat Password" required autofocus="">
+        
+                        <button class="btn btn-primary btn-block" type="submit"><i class="fas fa-user-plus"></i> Sign Up</button>
+                        <a href="#" id="cancel_signup"><i class="fas fa-angle-left"></i> Back</a>
+                    </form>
+                    <br>  
+            </div>
+        </section>
+        <!--<div id="my-signin2"></div>-->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+        <!-- Third party plugin JS-->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.4.1/jquery.easing.min.js"></script>
+        <script src="https://apis.google.com/js/platform.js?onload=renderButton" async defer></script>
+        <!-- Bootstrap core JS-->
+        <script src="/login-page/js/script.js"></script>
+    </body>
+</html>
